@@ -1,0 +1,21 @@
+{
+    "name": "fatagroup/eloquent-status",
+    "description": "",
+    "authors": [
+        {
+            "name": "anhskohbo",
+            "email": "anhskohbo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "illuminate/database": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fatagroup\\EloquentStatus\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
