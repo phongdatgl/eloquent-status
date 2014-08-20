@@ -24,7 +24,7 @@ In your model:
 
 
 class Post extends Eloquent {
-  use \Fatagroup\EloquentStatus\StatusTrait;
+  	use \Fatagroup\EloquentStatus\StatusTrait;
   
 	const DRAFT = 'DRAFT';
 	const APPROVED = 'APPROVED';
