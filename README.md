@@ -14,7 +14,7 @@ $ composer update
 Make sure you have `status` column like this in database table.
 
 ```php
-	$table->enum('status', array('DRAFT', 'APPROVED'))->default('DRAFT');
+$table->enum('status', array('DRAFT', 'APPROVED'))->default('DRAFT');
 ```
 
 In your model:
