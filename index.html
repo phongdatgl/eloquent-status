@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Eloquent-status : Eloquent status for Laravel">
+    <meta name="description" content="Eloquent Status : Eloquent status for Laravel">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Eloquent-status</title>
+    <title>Eloquent Status</title>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/fatagroup/eloquent-status">View on GitHub</a>
 
-          <h1 id="project_title">Eloquent-status</h1>
+          <h1 id="project_title">Eloquent Status</h1>
           <h2 id="project_tagline">Eloquent status for Laravel</h2>
 
             <section id="downloads">
@@ -54,7 +54,6 @@
 
 <div class="highlight highlight-php"><pre><span class="o">&lt;?</span><span class="nx">php</span>
 
-
 <span class="k">class</span> <span class="nc">Post</span> <span class="k">extends</span> <span class="nx">Eloquent</span> <span class="p">{</span>
     <span class="k">use</span> <span class="nx">\Fatagroup\EloquentStatus\StatusTrait</span><span class="p">;</span>
 
@@ -63,7 +62,6 @@
 
     <span class="c1">// ...</span>
 <span class="p">}</span>
-
 </pre></div>
 
 <h2>
@@ -79,7 +77,6 @@
 
 <span class="nv">$posts</span> <span class="o">=</span> <span class="nx">Post</span><span class="o">::</span><span class="na">onlyDraft</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">();</span>
 <span class="c1">// SELECT * FROM `posts` WHERE `status` = `DRAFT`</span>
-
 </pre></div>
 
 <h2>
@@ -92,12 +89,22 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Eloquent-status maintained by <a href="https://github.com/fatagroup">fatagroup</a></p>
+        <p class="copyright">Eloquent Status maintained by <a href="https://github.com/fatagroup">fatagroup</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-53946918-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
 
   </body>
 </html>
